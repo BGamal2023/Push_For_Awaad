@@ -90,7 +90,7 @@ namespace Car_GameBoy.__Globals
         /// Start Button 
         public static int btn_Start_Widht = 80;
         public static int btn_Start_Height = 25;
-        public static int btn_Start_Left_Pos = 555;
+        public static int btn_Start_Left_Pos = 575;
         public static int btn_Start_Top_Pos = 500;
         public static string btn_Start_Text = "Start Game";
         public static Brush btn_Start_Bkground_Color = Brushes.Green;
@@ -98,7 +98,7 @@ namespace Car_GameBoy.__Globals
         /// Stop Button 
         public static int btn_Stop_Widht = 80;
         public static int btn_Stop_Height = 25;
-        public static int btn_Stop_Left_Pos = 555;
+        public static int btn_Stop_Left_Pos = 575;
         public static int btn_Stop_Top_Pos = 575;
         public static string btn_Stop_Text = "Stop Game";
         public static Brush btn_Stop_Bkground_Color = Brushes.Red;
@@ -131,15 +131,6 @@ namespace Car_GameBoy.__Globals
         public static int enemy_One_Block_Width = 15;
         public static int enemy_One_Block_Height = 10;
         public static int no_Of_Blocks_in_enemy_Body = 9;
-
-/*
-        public static int enemy_Container_Width = 3 * player_One_Block_Width;
-        public static int enemy_Container_Height = 5 * player_One_Block_Height;
-        public static int enemy_Container_X_Pos = racing_Area_X_Pos;
-        public static int enemy_Container_Y_Pos = 0;
-        public static Brush enemy_Continer_Color = Brushes.Green;
-        public static int enemy_Container_Moving_Speed = moving_Increment;
-        public static List<C_Item> li_Enemy_Containers = new List<C_Item>();*/
         //-------------------------------------------------
         ///Enemyies
         public static int number_Of_Enemies = 5;
@@ -159,36 +150,43 @@ namespace Car_GameBoy.__Globals
         public static bool doesLeftMovingEnabled = false;
         public static bool doesRightMovingEnabled = false;
         //------------------------------------------------------
-        public static List<Brush> li_Car_Colors= new List<Brush>();   
+        public static List<Brush> li_Car_Colors= new List<Brush>();
+        //-----------------------------------------------------
 
-        public static Brush[] arr_Colors = new Brush[]
-        {
-            Brushes.Red,
-            Brushes.Navy,
-            Brushes.Pink,
-            Brushes.Purple,
-            Brushes.Blue,
-            Brushes.Yellow,
-            Brushes.Magenta,
-            Brushes.Brown,
-            Brushes.AliceBlue,
-            Brushes.Beige,
-            Brushes.BurlyWood,
-            Brushes.Coral,
-            Brushes.Cyan,
-            Brushes.CornflowerBlue,
-            Brushes.Cornsilk,
-            Brushes.Firebrick,
-            Brushes.FloralWhite,
-            Brushes.ForestGreen,
-            Brushes.Gainsboro,
-            Brushes.Honeydew,
-            Brushes.Gold,
-            Brushes.Wheat,
-            Brushes.White
-        };
+        /// Player Score
+        public static int player_Hi_Score = 0;
+        public static int player_Score = 0;
+        //-----------------------------------------------------
 
-
+        /// Hi Score Text
+        public static int hi_Score_TBlock_W = 80;
+        public static int hi_Score_TBlock_H = 35;
+        public static int hi_Score_TBlock_Left_Pos = 575;
+        public static int hi_Score_TBlock_Top_Pos = 50;
+        public static string hi_Score_TBlock_Text = "Hi Score";
+        public static Brush hi_Score_TBlock_Bkground_Color = gameArea_Bkground_Color;
+        /// Hi Score box
+        public static int hi_Score_TBox_W = 80;
+        public static int hi_Score_TBox_H = 25;
+        public static int hi_Score_TBox_Left_Pos = 575;
+        public static int hi_Score_TBox_Top_Pos = 90;
+        public static Brush hi_Score_TBox_Bkground_Color = gameArea_Bkground_Color;
+        //-----------------------------------------------------
+        /// Score Text
+        public static int progress_TextBlock_Width = 80;
+        public static int progress_TextBlock_Height = 35;
+        public static int progress_TextBlock_Left_Pos = 575;
+        public static int progress_TextBlock_Top_Pos = 150;
+        public static string progress_TextBlock_Text = "Score";
+        public static Brush progress_TextBlock_Bkground_Color = gameArea_Bkground_Color;
+        /// Score box
+        public static int progress_TextBox_Width = 80;
+        public static int progress_TextBox_Height = 25;
+        public static int progress_TextBox_Left_Pos = 575;
+        public static int progress_TextBox_Top_Pos = 190;
+        public static Brush progress_TextBox_Bkground_Color = gameArea_Bkground_Color;
+        //-----------------------------------------------------
+      
 
 
 

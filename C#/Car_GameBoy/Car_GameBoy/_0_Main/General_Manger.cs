@@ -4,6 +4,7 @@ using Car_GameBoy._1_Deps._1_GameArea_Handler;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Blocks_In_Side_Way;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Collision_Text;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Manager;
+using Car_GameBoy._1_Deps._2_Creating.Creating_Score_Box;
 using Car_GameBoy._1_Deps._3_Drawing.Drawing_Manager;
 using Car_GameBoy._1_Deps._4_Moving.Moving_Manager;
 using Car_GameBoy._1_Deps._5_Buttons.Buttons_Manager;
@@ -32,56 +33,45 @@ namespace Car_GameBoy._0_Main
         
         //------------------------------------------------------------------------------------------------
 
-        public Canvas start_And_Handle_The_App(MainWindow mW,TextBox textbox)
+        public Canvas start_And_Handle_The_App(MainWindow mW)
         {
             obj_MWH.customize_mainWindow(mW);
             gameArea = obj_GAH.handle_And_Give_Me_The_GameArea(mW);
-            handle_The_Game_Timer(textbox);
+            handle_The_Game_Timer(Score_Box_Creator.obj_TextBox);
             obj_Btns_Manager.handle_GameArea_Buttons(gameArea, timer);
             obj_Creating_Manager.creat();
             obj_Drawing_Manager.draw(gameArea);
-
-
-
             return gameArea;
         }
 
       
 
         //------------------------------------------------------------------------------------------------
-        public void handle_The_Game_Timer(TextBox textbox)
+        public void handle_The_Game_Timer(TextBox player_Score)
         {
-            timer.Tick += (sender, e) => timer_Tick(sender, e, gameArea,textbox);
+            timer.Tick += (sender, e) => timer_Tick(sender, e, gameArea,player_Score);
 
             timer.Interval = System.TimeSpan.FromMilliseconds(Globals.timerTick);
         }
         //------------------------------------------------------------------------------------------------
-        private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox textbox)
+        private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox player_Score)
         {
             
             obj_Moving_Manager.move_Items_During_Timer_Tick(gameArea);
-            //  obj_Enemey_Collision.detect_Enemy_Collison(Globals.li_Player_Container, Globals.li_Enemy_Parts,timer);
             obj_Enemey_Collision.detect_Enemy_Collison(Globals.li_Player_Container, Globals.li_Enemy_Cars, timer);
-
-
-            // obj_Collision_Text.detect_Collision(Globals.li_player,Globals.li_Enemies,timer); ;
-            update_No_Of_Collision(textbox);
+            Globals.player_Score += 1;
+            update_Player_Score(player_Score);
         }
         //------------------------------------------------------------------------------------------------
         public void onclick_Keydown(object sender, KeyEventArgs e)
         {
             if(e.Key == Key.Right) 
             {
-               /* Globals.doesRightMovingEnabled = true;
-
-                Globals.doesLeftMovingEnabled = false;*/
+              
                 obj_Moving_Manager.move_The_Player_Right(gameArea);
             }
             else if(e.Key == Key.Left)
             {
-               /* Globals.doesLeftMovingEnabled = true;
-                Globals.doesRightMovingEnabled = false;
-*/
                 obj_Moving_Manager.move_The_Player_Left(gameArea);
 
             }
@@ -89,22 +79,17 @@ namespace Car_GameBoy._0_Main
         //------------------------------------------------------------------------------------------------
         internal void onClick_Keyup(object sender, KeyEventArgs e)
         {
-           /* if (e.Key == Key.Right)
-            {
-                Globals.doesRightMovingEnabled = false;
-
-            }
-            else if (e.Key == Key.Left)
-            {
-                Globals.doesLeftMovingEnabled = false;
-                // obj_Moving_Manager.move_The_Player_Left(gameArea);
-
-            }*/
+         
         }
         //------------------------------------------------------------------------------------------------
         private void update_No_Of_Collision(TextBox tb)
         {
             tb.Text=Globals.collision_Num.ToString();
+        }
+        //------------------------------------------------------------------------------------------------
+        private void update_Player_Score(TextBox tb)
+        {
+            tb.Text=Globals.player_Score.ToString();
         }
     }
 }

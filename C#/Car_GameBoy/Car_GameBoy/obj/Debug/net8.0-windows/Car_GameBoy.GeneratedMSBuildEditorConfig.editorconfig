@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Car_GameBoy
-build_property.ProjectDir = E:\Programming\12_C#\Csharp_Projects\Car_GameBoy\Car_GameBoy\
+build_property.ProjectDir = E:\Programming\Awaad GitHub\Push_For_Awaad\C#\Car_GameBoy\Car_GameBoy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
