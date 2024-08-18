@@ -30,7 +30,7 @@ namespace Car_GameBoy._0_Main
         private Buttons_Manager obj_Btns_Manager = new Buttons_Manager();
         private Collision_Text obj_Collision_Text= new Collision_Text();
         private Enemey_Collision obj_Enemey_Collision = new Enemey_Collision();
-        
+        private int count = 0;
         //------------------------------------------------------------------------------------------------
 
         public Canvas start_And_Handle_The_App(MainWindow mW)
@@ -41,6 +41,8 @@ namespace Car_GameBoy._0_Main
             obj_Btns_Manager.handle_GameArea_Buttons(gameArea, timer);
             obj_Creating_Manager.creat();
             obj_Drawing_Manager.draw(gameArea);
+            set_The_Initial_Values();
+            
             return gameArea;
         }
 
@@ -61,6 +63,7 @@ namespace Car_GameBoy._0_Main
             obj_Enemey_Collision.detect_Enemy_Collison(Globals.li_Player_Container, Globals.li_Enemy_Cars, timer);
             Globals.player_Score += 1;
             update_Player_Score(player_Score);
+            player_Fuel_Control();
         }
         //------------------------------------------------------------------------------------------------
         public void onclick_Keydown(object sender, KeyEventArgs e)
@@ -90,6 +93,18 @@ namespace Car_GameBoy._0_Main
         private void update_Player_Score(TextBox tb)
         {
             tb.Text=Globals.player_Score.ToString();
+        }
+        //------------------------------------------------------------------------------------------------
+        private void set_The_Initial_Values()
+        {
+            Globals.player_Fuel = 100;
+
+        }
+        //------------------------------------------------------------------------------------------------
+        private void player_Fuel_Control()
+        {
+
+            Globals.player_Fuel -= Globals.timerTick / 1000;
         }
     }
 }

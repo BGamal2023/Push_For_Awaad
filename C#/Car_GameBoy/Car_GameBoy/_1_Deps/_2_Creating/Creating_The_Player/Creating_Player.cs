@@ -19,20 +19,9 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_The_Player
 
         public void create_The_Player()
         {
-            get_New_X_And_Y_For_The_Player_Parts();
+            /// use creating car not create one segement......
 
-            for (int i = 0; i < Globals.no_Of_Blocks_in_Player_Body; i++)
-            {
-                obj_Creating.creat_One_Segement_Item(
-              Globals.player_One_Block_Width,
-              Globals.player_One_Block_Height,
-             arr_X_Pos_Of_Player_Body[i],
-             arr_Y__Pos_Of_Player_Body[i],
-              Globals.player_Color,
-              Globals.li_player
-              );
-
-            }
+          
 
         }
 

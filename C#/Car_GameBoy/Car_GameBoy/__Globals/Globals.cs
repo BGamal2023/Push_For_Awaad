@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Permissions;
+using System.Security.Policy;
+using System.Security.RightsManagement;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Documents;
@@ -133,8 +135,8 @@ namespace Car_GameBoy.__Globals
         public static int no_Of_Blocks_in_enemy_Body = 9;
         //-------------------------------------------------
         ///Enemyies
-        public static int number_Of_Enemies = 5;
-        //public static List<C_Item> li_Enemy_Parts = new List<C_Item>();
+        public static int number_Of_Enemies = 2;
+        public static int verticar_Dis_Bet_Enemies = 300;
         public static List<List<C_Item>> li_Enemy_Cars = new List<List<C_Item>>();
 
         public static int random_Enemy_X_Pos = 350;
@@ -156,6 +158,7 @@ namespace Car_GameBoy.__Globals
         /// Player Score
         public static int player_Hi_Score = 0;
         public static int player_Score = 0;
+        public static Double player_Fuel = 0;
         //-----------------------------------------------------
 
         /// Hi Score Text
@@ -169,26 +172,43 @@ namespace Car_GameBoy.__Globals
         public static int hi_Score_TBox_W = 80;
         public static int hi_Score_TBox_H = 25;
         public static int hi_Score_TBox_Left_Pos = 575;
-        public static int hi_Score_TBox_Top_Pos = 90;
+        public static int hi_Score_TBox_Top_Pos = 80;
         public static Brush hi_Score_TBox_Bkground_Color = gameArea_Bkground_Color;
         //-----------------------------------------------------
         /// Score Text
         public static int progress_TextBlock_Width = 80;
         public static int progress_TextBlock_Height = 35;
         public static int progress_TextBlock_Left_Pos = 575;
-        public static int progress_TextBlock_Top_Pos = 150;
+        public static int progress_TextBlock_Top_Pos = 130;
         public static string progress_TextBlock_Text = "Score";
         public static Brush progress_TextBlock_Bkground_Color = gameArea_Bkground_Color;
         /// Score box
         public static int progress_TextBox_Width = 80;
         public static int progress_TextBox_Height = 25;
         public static int progress_TextBox_Left_Pos = 575;
-        public static int progress_TextBox_Top_Pos = 190;
+        public static int progress_TextBox_Top_Pos = 160;
         public static Brush progress_TextBox_Bkground_Color = gameArea_Bkground_Color;
         //-----------------------------------------------------
-      
+        /// Fuel indicator
 
+        public static int fuel_Indic_TBlock_W = 80;
+        public static int fuel_Indic_TBlock_H = 35;
+        public static int fuel_Indic_TBlock_Left_Pos = 575;
+        public static int fuel_Indic_TBlock_Top_Pos = 220;
+        public static string fuel_Indic_TBlock_Text = "Fuel";
+        public static Brush fuel_Indic_TBlock_Bkground_Color = gameArea_Bkground_Color;
+        
+        public static int fuel_Indic_TBox_W= 80;
+        public static int fuel_Indic_TBox_H= 25;
+        public static int fuel_Indic_TBox_Left_Pos = 575;
+        public static int fuel_Indic_TBox_Top_Pos = 250;
+        public static Brush fuel_Indic_TBox_Bkground_Color = gameArea_Bkground_Color;
 
+        //--------------------------------------------------------------
+        ///Player Food
+        public static List<C_Item> li_Player_Food= new List<C_Item>();
+        public static int player_Food_X_pos = 300;
+        public static int player_Food_Y_Pos = 50;
 
 
 

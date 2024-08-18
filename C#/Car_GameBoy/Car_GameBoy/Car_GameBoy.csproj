@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="_1_Deps\Levels\" />
     <Folder Include="_1_Deps\Only_For_Folders_Renming\" />
     <Folder Include="_1_Deps\_4_Moving\NewFolder\" />
     <Folder Include="_1_Deps\_5_Buttons\Controlling_GC\" />

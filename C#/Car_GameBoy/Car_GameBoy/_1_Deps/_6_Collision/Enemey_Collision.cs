@@ -26,8 +26,7 @@ namespace Car_GameBoy._1_Deps._6_Collision
                         bool isColliding = CheckCollision(player[i].rect, enemy_Car.rect);
                         if (isColliding)
                         {
-                            Globals.collision_Num++;
-
+                            timer.Stop();
                         }
                     }
                 }
