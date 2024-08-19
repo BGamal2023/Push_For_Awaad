@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_3_drawing\\drawing_manager\\drawing_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_3_drawing\\drawing_manager\\drawing_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_7_controlling\\controlling_player_food\\player_food_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_7_controlling\\controlling_player_food\\player_food_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_0_main\\general_manger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_0_main\\general_manger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_4_moving\\interfaces_and_thier_implem_classes\\c_moving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_4_moving\\interfaces_and_thier_implem_classes\\c_moving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_2_creating\\creating_player_food\\player_food_creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\__globals\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\__globals\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\my_tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\my_tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_4_moving\\moving_player_food\\player_food_mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_4_moving\\moving_player_food\\player_food_mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_4_moving\\moving_manager\\moving_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_4_moving\\moving_manager\\moving_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_0_main\\general_manger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_0_main\\general_manger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_7_controlling\\controlling_manager\\controlling_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_7_controlling\\controlling_manager\\controlling_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_7_controlling\\controlling_player_fuel\\player_fuel_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_7_controlling\\controlling_player_fuel\\player_fuel_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_2_creating\\creating_manager\\creating_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_2_creating\\creating_manager\\creating_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_3_drawing\\drawing_manager\\drawing_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_3_drawing\\drawing_manager\\drawing_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 327,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +66,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Globals.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\__Globals\\Globals.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\__Globals\\Globals.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\__Globals\\Globals.cs",
-              "RelativeToolTip": "Car_GameBoy\\__Globals\\Globals.cs",
-              "ViewState": "AQIAAI4AAAAAAAAAAAAUwKAAAAAoAAAA",
+              "DocumentIndex": 4,
+              "Title": "My_Tasks.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\My_Tasks.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\My_Tasks.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\My_Tasks.cs",
+              "RelativeToolTip": "Car_GameBoy\\My_Tasks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T17:32:03.024Z",
+              "WhenOpened": "2024-08-18T20:31:04.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "General_Manger.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "RelativeToolTip": "Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAAwGwAAAAFAAAA",
+              "DocumentIndex": 9,
+              "Title": "Player_Fuel_Controller.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Fuel\\Player_Fuel_Controller.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Fuel\\Player_Fuel_Controller.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Fuel\\Player_Fuel_Controller.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Fuel\\Player_Fuel_Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T17:30:30.269Z",
+              "WhenOpened": "2024-08-18T20:21:59.173Z",
               "EditorCaption": ""
             },
             {
@@ -66,22 +98,126 @@
               "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Player_Food\\Player_Food_Creator.cs",
               "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Player_Food\\Player_Food_Creator.cs",
               "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Player_Food\\Player_Food_Creator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAXAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswC0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T17:27:17.625Z",
+              "WhenOpened": "2024-08-18T20:21:30.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "Creating_Manager.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:21:25.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Controlling_Manager.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Manager\\Controlling_Manager.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Manager\\Controlling_Manager.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Manager\\Controlling_Manager.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Manager\\Controlling_Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:09:56.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\__Globals\\Globals.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\__Globals\\Globals.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\__Globals\\Globals.cs",
+              "RelativeToolTip": "Car_GameBoy\\__Globals\\Globals.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAiwNUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:07:17.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "General_Manger.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "RelativeToolTip": "Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:04:38.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Drawing_Manager.cs",
               "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_3_Drawing\\Drawing_Manager\\Drawing_Manager.cs",
               "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_3_Drawing\\Drawing_Manager\\Drawing_Manager.cs",
               "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_3_Drawing\\Drawing_Manager\\Drawing_Manager.cs",
               "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_3_Drawing\\Drawing_Manager\\Drawing_Manager.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAC4AAAAuAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T17:11:29.303Z",
+              "WhenOpened": "2024-08-18T20:00:41.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player_Food_Controller.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Food\\Player_Food_Controller.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Food\\Player_Food_Controller.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Food\\Player_Food_Controller.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_7_Controlling\\Controlling_Player_Food\\Player_Food_Controller.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADAAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T19:59:20.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Moving_Manager.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Manager\\Moving_Manager.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Manager\\Moving_Manager.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Manager\\Moving_Manager.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Manager\\Moving_Manager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwCEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T19:55:58.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "C_Moving.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_4_Moving\\Interfaces_And_Thier_Implem_Classes\\C_Moving.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_4_Moving\\Interfaces_And_Thier_Implem_Classes\\C_Moving.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_4_Moving\\Interfaces_And_Thier_Implem_Classes\\C_Moving.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_4_Moving\\Interfaces_And_Thier_Implem_Classes\\C_Moving.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T19:49:14.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player_Food_Mover.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Player_Food\\Player_Food_Mover.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Player_Food\\Player_Food_Mover.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Player_Food\\Player_Food_Mover.cs",
+              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_4_Moving\\Moving_Player_Food\\Player_Food_Mover.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T19:42:16.38Z",
               "EditorCaption": ""
             }
           ]

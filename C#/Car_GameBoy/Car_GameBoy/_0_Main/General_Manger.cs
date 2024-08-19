@@ -3,6 +3,7 @@ using Car_GameBoy._1_Deps._0_MainWindow_Handler;
 using Car_GameBoy._1_Deps._1_GameArea_Handler;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Blocks_In_Side_Way;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Collision_Text;
+using Car_GameBoy._1_Deps._2_Creating.Creating_Fuel_Indicator;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Manager;
 using Car_GameBoy._1_Deps._2_Creating.Creating_Score_Box;
 using Car_GameBoy._1_Deps._3_Drawing.Drawing_Manager;
@@ -10,6 +11,7 @@ using Car_GameBoy._1_Deps._4_Moving.Moving_Manager;
 using Car_GameBoy._1_Deps._5_Buttons.Buttons_Manager;
 using Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes;
 using Car_GameBoy._1_Deps._6_Collision;
+using Car_GameBoy._1_Deps._7_Controlling.Controlling_Manager;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -30,6 +32,7 @@ namespace Car_GameBoy._0_Main
         private Buttons_Manager obj_Btns_Manager = new Buttons_Manager();
         private Collision_Text obj_Collision_Text= new Collision_Text();
         private Enemey_Collision obj_Enemey_Collision = new Enemey_Collision();
+        private Controlling_Manager obj_Controlling_Manager=new Controlling_Manager ();
         private int count = 0;
         //------------------------------------------------------------------------------------------------
 
@@ -63,7 +66,8 @@ namespace Car_GameBoy._0_Main
             obj_Enemey_Collision.detect_Enemy_Collison(Globals.li_Player_Container, Globals.li_Enemy_Cars, timer);
             Globals.player_Score += 1;
             update_Player_Score(player_Score);
-            player_Fuel_Control();
+            obj_Controlling_Manager.control(Globals.timerTick,gameArea);
+
         }
         //------------------------------------------------------------------------------------------------
         public void onclick_Keydown(object sender, KeyEventArgs e)
@@ -98,13 +102,10 @@ namespace Car_GameBoy._0_Main
         private void set_The_Initial_Values()
         {
             Globals.player_Fuel = 100;
+            Fuel_Indicator_Creator.fuel_Indic_TBox.Text = Globals.player_Fuel.ToString();
 
         }
         //------------------------------------------------------------------------------------------------
-        private void player_Fuel_Control()
-        {
-
-            Globals.player_Fuel -= Globals.timerTick / 1000;
-        }
+      
     }
 }

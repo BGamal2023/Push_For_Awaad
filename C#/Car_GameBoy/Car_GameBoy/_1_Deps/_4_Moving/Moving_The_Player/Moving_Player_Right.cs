@@ -18,15 +18,15 @@ namespace Car_GameBoy._1_Deps._4_Moving.Moving_The_Player
         //--------------------------------------------------------------------------------------------------------
         public void move_The_Player_Right_Side_V0(Canvas gameArea)
         {
-            obj_Moving.clear_The_GameArea_From_This_Item(Globals.li_player, gameArea);
+            obj_Moving.clear_Item_From_The_GameArea(Globals.li_player, gameArea);
             change_Player_Position_Right_Side_V0();
             obj_Moving.redraw_The_Item(Globals.li_player, gameArea);
         }
         //--------------------------------------------------------------------------------------------------------
         public void move_The_Player_Right_Side_V1(Canvas gameArea)
         {
-            obj_Moving.clear_The_GameArea_From_This_Item(Globals.li_player, gameArea);
-            obj_Moving.clear_The_GameArea_From_This_Item(Globals.li_Player_Container, gameArea);
+            obj_Moving.clear_Item_From_The_GameArea(Globals.li_player, gameArea);
+            obj_Moving.clear_Item_From_The_GameArea(Globals.li_Player_Container, gameArea);
 
             change_Player_Container_Right_Position();
             clear_Player_List();

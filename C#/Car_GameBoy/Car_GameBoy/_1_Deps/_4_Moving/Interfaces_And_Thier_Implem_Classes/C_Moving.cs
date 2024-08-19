@@ -17,7 +17,7 @@ namespace Car_GameBoy._1_Deps._4_Moving.Interfaces_And_Thier_Implem_Classes
         //------------------------------------------------------------------------------------------------------------
         public void move_Item_Vertical_Down_At_Fixed_Left_Pos(List<C_Item> list, Canvas gameArea, int increment_Value, int limit_Value)
         {
-            clear_The_GameArea_From_This_Item(list, gameArea);
+            clear_Item_From_The_GameArea(list, gameArea);
             change_Position_Value_Vertically(list, increment_Value, limit_Value);
             check_Top_Pos_Limit(list, limit_Value);
             redraw_The_Item(list, gameArea);
@@ -27,7 +27,7 @@ namespace Car_GameBoy._1_Deps._4_Moving.Interfaces_And_Thier_Implem_Classes
 
         public void move_Item_Vertical_Down_With_Changing_Left_Pos(List<C_Item> list, Canvas gameArea, int increment_Value, int limit_Value)
         {
-            clear_The_GameArea_From_This_Item(list, gameArea);
+            clear_Item_From_The_GameArea(list, gameArea);
             change_Position_Value_Vertically(list, increment_Value, limit_Value);
             check_Top_Pos_Limit_With_Changing_X_Pos(list, limit_Value, gameArea);
             redraw_The_Item(list, gameArea);
@@ -36,13 +36,13 @@ namespace Car_GameBoy._1_Deps._4_Moving.Interfaces_And_Thier_Implem_Classes
         public void move_Item_Horizontal_Right(List<C_Item> list, Canvas gameArea, int increment_Value, int limit_Value)
         {
 
-            clear_The_GameArea_From_This_Item(list, gameArea);
+            clear_Item_From_The_GameArea(list, gameArea);
 
             redraw_The_Item(list, gameArea);
 
         }
         //----------------------------------------------------------------------------------------------------
-        public void clear_The_GameArea_From_This_Item(List<C_Item> list, Canvas gameArea)
+        public void clear_Item_From_The_GameArea(List<C_Item> list, Canvas gameArea)
         {
             for (int i = 0; i < list.Count; i++)
             {

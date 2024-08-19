@@ -23,5 +23,9 @@ namespace Car_GameBoy
         ///  player food and its logic
         ///  road bumps and its logic
         ///  levels
+        ///  change color of player food every tick
+        ///  remove food  if gone under game area or collision with player
+        ///  do not appear food in any place of enemy
+        ///  
     }
 }

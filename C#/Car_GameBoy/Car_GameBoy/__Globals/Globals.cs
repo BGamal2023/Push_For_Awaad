@@ -209,6 +209,9 @@ namespace Car_GameBoy.__Globals
         public static List<C_Item> li_Player_Food= new List<C_Item>();
         public static int player_Food_X_pos = 300;
         public static int player_Food_Y_Pos = 50;
+        public static bool doesFoodEnabled=false;
+        public static bool draw_Food=false;
+        public static bool food_Collision=false;    
 
 
 

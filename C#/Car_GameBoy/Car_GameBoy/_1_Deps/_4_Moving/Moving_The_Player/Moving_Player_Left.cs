@@ -22,8 +22,8 @@ namespace Car_GameBoy._1_Deps._4_Moving.Moving_The_Player
         //--------------------------------------------------------------------------------------------------------
         public void move_The_Player_Left_Side(Canvas gameArea)
         {
-            obj_Moving.clear_The_GameArea_From_This_Item(Globals.li_player, gameArea);
-            obj_Moving.clear_The_GameArea_From_This_Item(Globals.li_Player_Container, gameArea);
+            obj_Moving.clear_Item_From_The_GameArea(Globals.li_player, gameArea);
+            obj_Moving.clear_Item_From_The_GameArea(Globals.li_Player_Container, gameArea);
             
             change_Player_Container_Left_Side_V2();
             clear_Player_List();

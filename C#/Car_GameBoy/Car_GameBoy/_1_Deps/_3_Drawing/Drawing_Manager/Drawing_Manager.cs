@@ -30,7 +30,6 @@ namespace Car_GameBoy._1_Deps._3_Drawing.Drawing_Manager
         private Drawing_The_Player obj_Drawing_Player = new Drawing_The_Player();
         private Drawing_The_Enemies obj_Drawing_Enemyies = new Drawing_The_Enemies();
         private Drawing_Player_Container obj_Drawing_Player_Container = new Drawing_Player_Container();
-        private Player_Food_Drawer obj_Drawer_Food_Drawer=new Player_Food_Drawer();
         //----------------------------------------------------------------------------------
         public void draw(Canvas gameArea)
         {
@@ -46,7 +45,6 @@ namespace Car_GameBoy._1_Deps._3_Drawing.Drawing_Manager
             obj_Drawing_Player_Container.draw_The_Player_Conatiner(gameArea);
             obj_Drawing_Player.draw_The_Player(gameArea);
             obj_Drawing_Enemyies.draw_The_Enemies(gameArea);
-            obj_Drawer_Food_Drawer.draw_The_Player_Food(gameArea);  
 
 
 
