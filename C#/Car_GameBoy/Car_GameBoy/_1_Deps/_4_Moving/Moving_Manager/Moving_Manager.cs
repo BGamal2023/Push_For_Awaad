@@ -30,7 +30,6 @@ namespace Car_GameBoy._1_Deps._4_Moving.Moving_Manager
             obj_Moving_Right_Sideway_Blocks.move_The_Right_Blocks_In_Sideway(gameArea);
             obj_Moving_Left_Sideway_Blocks.move_The_Left_Blocks_In_Sideway(gameArea);
             obj_Moving_Enemies.move_Enemies(gameArea);
-            //obj_Moving_Enemies.move_Enemy_Containers(gameArea);
             obj_Player_Food_Mover.move_The_Player_Food(gameArea);
         }
         //-----------------------------------------------------------------------------------------------------------

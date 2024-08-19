@@ -15,17 +15,17 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Player_Food
     {
         private C_Creating_One_Segement_Items_GC obj_Creating = new C_Creating_One_Segement_Items_GC();
         private C_Creating_Car obj_Creating_Car=new C_Creating_Car();
-        Brush[] player_Food_Colors =
+        public Brush[] player_Food_Colors =
         {
-            Brushes.Red,
-            Brushes.Red,
-            Brushes.Red,
-            Brushes.Red,
-            Brushes.Red,
+             Brushes.Red,
+            Brushes.Yellow,
+            Brushes.Magenta,
+            Brushes.Cyan,
+            Brushes.Gold,
             Brushes.White,
             Brushes.White,
-            Brushes.White,
-            Brushes.White
+             Brushes.White,
+             Brushes.White,
         };
         //-------------------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Player_Food
           
 
         }
-       
+     
 
     }
 }

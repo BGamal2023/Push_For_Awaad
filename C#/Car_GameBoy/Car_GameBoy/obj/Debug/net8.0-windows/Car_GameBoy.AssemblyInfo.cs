@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Car_GameBoy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c11d7d9ea84a260ea72f815c04c26797d1c0818")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8b1f9e6332462345550cd75180dd845481aaae3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Car_GameBoy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Car_GameBoy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

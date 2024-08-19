@@ -39,6 +39,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Interfaces_And_Thier_Implemented_Class
                 i_Item.rect = i_car_Part;
                 i_Item.left_Pos = x_Arr[i];
                 i_Item.top_Pos = y_Arr[i];
+                i_Item.color = car_Part_Color;
                 li_Car_Parts.Add(i_Item);
 
 
@@ -72,6 +73,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Interfaces_And_Thier_Implemented_Class
                 i_Item.rect = i_car_Part;
                 i_Item.left_Pos = x_Arr[i];
                 i_Item.top_Pos = y_Arr[i];
+                i_Item.color = car_Colors[i];
                 li_Car_Parts.Add(i_Item);
 
 

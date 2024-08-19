@@ -31,7 +31,7 @@ namespace Car_GameBoy._0_Main
         private Moving_Manager obj_Moving_Manager = new Moving_Manager();
         private Buttons_Manager obj_Btns_Manager = new Buttons_Manager();
         private Collision_Text obj_Collision_Text= new Collision_Text();
-        private Enemey_Collision obj_Enemey_Collision = new Enemey_Collision();
+        private Collision_Manager obj_Collision_Manager=new Collision_Manager();
         private Controlling_Manager obj_Controlling_Manager=new Controlling_Manager ();
         private int count = 0;
         //------------------------------------------------------------------------------------------------
@@ -61,12 +61,12 @@ namespace Car_GameBoy._0_Main
         //------------------------------------------------------------------------------------------------
         private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox player_Score)
         {
-            
+            obj_Collision_Manager.check_Collision(Globals.li_Player_Container, Globals.li_Enemy_Cars, Globals.li_Player_Food, timer);
+
             obj_Moving_Manager.move_Items_During_Timer_Tick(gameArea);
-            obj_Enemey_Collision.detect_Enemy_Collison(Globals.li_Player_Container, Globals.li_Enemy_Cars, timer);
             Globals.player_Score += 1;
             update_Player_Score(player_Score);
-            obj_Controlling_Manager.control(Globals.timerTick,gameArea);
+            obj_Controlling_Manager.control(Globals.timerTick, gameArea);
 
         }
         //------------------------------------------------------------------------------------------------

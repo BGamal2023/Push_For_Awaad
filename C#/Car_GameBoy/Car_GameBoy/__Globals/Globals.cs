@@ -27,7 +27,7 @@ namespace Car_GameBoy.__Globals
         public static int gameArea_Height = 700;
         public static Brush gameArea_Bkground_Color = Brushes.DarkSlateGray;
         //-----------
-        public static double timerTick = 100;
+        public static double timerTick = 300;
         //-----------
         /// Racing Area
         public static int racing_Area_X_Pos = 200;
@@ -113,7 +113,7 @@ namespace Car_GameBoy.__Globals
         public static int player_Container_Width = 3 * player_One_Block_Width;
         public static int player_Container_Height = 5 * player_One_Block_Height;
         public static int player_Container_X_Pos = 328;
-        public static int player_Container_Y_Pos = 620;
+        public static int player_Container_Y_Pos = 550;
         public static Brush player_Continer_Color = Brushes.Black;
         public static int player_Container_Moving_Speed = player_Move_Speed;
         public static List<C_Item> li_Player_Container = new List<C_Item>();

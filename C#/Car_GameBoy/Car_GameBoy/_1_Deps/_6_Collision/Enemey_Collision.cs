@@ -35,16 +35,6 @@ namespace Car_GameBoy._1_Deps._6_Collision
 
 
 
-/*
-                for(int j=0;j<enemies.Count;j++)
-                {
-                    bool isColliding = CheckCollision(player[i].rect, enemies[j].rect);
-                    if (isColliding)
-                    {
-                        Globals.collision_Num++;
-
-                    }
-                }*/
             }
         }
         //-------------------------------------------------------------------------------------------------------------------------------

@@ -23,6 +23,15 @@ namespace Car_GameBoy._1_Deps._4_Moving.Interfaces_And_Thier_Implem_Classes
             redraw_The_Item(list, gameArea);
 
         }
+        public void move_Item_Vertical_Down_At_Fixed_Left_Pos_With_Delay_Value
+            (List<C_Item> list, Canvas gameArea, int increment_Value, int limit_Value,int delay_Value)
+        {
+            clear_Item_From_The_GameArea(list, gameArea);
+            change_Position_Value_Vertically(list, increment_Value, limit_Value);
+            check_Top_Pos_Limit_With_Delay_Value(list, limit_Value,delay_Value);
+            redraw_The_Item(list, gameArea);
+
+        }
         //------------------------------------------------------------------------------------------------------------
 
         public void move_Item_Vertical_Down_With_Changing_Left_Pos(List<C_Item> list, Canvas gameArea, int increment_Value, int limit_Value)
@@ -90,6 +99,17 @@ namespace Car_GameBoy._1_Deps._4_Moving.Interfaces_And_Thier_Implem_Classes
 
         }
         //----------------------------------------------------------------------------------------------------
+        public void check_Top_Pos_Limit_With_Delay_Value(List<C_Item> list, int limit_Value,int delay_Value)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].top_Pos >= limit_Value+delay_Value)
+                {
+                    list[i].top_Pos = list[i].top_Pos - limit_Value;
+                }
+            }
+        }
+        //----------------------------------------------------------------------------------------------------
         public void check_Top_Pos_Limit(List<C_Item> list, int limit_Value)
         {
             for (int i = 0; i < list.Count; i++)
@@ -105,10 +125,10 @@ namespace Car_GameBoy._1_Deps._4_Moving.Interfaces_And_Thier_Implem_Classes
         {
             for (int i = 0; i < list.Count; i++)
             {
-                if (list[i].top_Pos >= limit_Value+100)
+                if (list[i].top_Pos >= limit_Value)
                 {
 
-                    list[i].top_Pos = list[i].top_Pos - limit_Value-100;
+                    list[i].top_Pos = list[i].top_Pos - limit_Value;
                    
 
                 }
