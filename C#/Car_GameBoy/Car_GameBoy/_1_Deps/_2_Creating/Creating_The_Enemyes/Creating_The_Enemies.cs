@@ -32,7 +32,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_The_Enemyes
 
                 Globals.enemy_Color = Globals.li_Car_Colors[generate_Randome_Num_For_Enemy_Color()];
 
-                Globals.enemy_Y_Pos += Globals.verticar_Dis_Bet_Enemies;
+                Globals.enemy_Y_Pos += Globals.vertical_Dis_Bet_Enemies;
 
             }
 

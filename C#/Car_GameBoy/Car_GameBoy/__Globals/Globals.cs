@@ -1,5 +1,6 @@
 ﻿using Car_GameBoy._1_Deps._3_Drawing.Drawing_GC;
 using Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes;
+using Car_GameBoy._1_Deps.Levels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace Car_GameBoy.__Globals
         public static int gameArea_Height = 700;
         public static Brush gameArea_Bkground_Color = Brushes.DarkSlateGray;
         //-----------
-        public static double timerTick = 300;
+        public static double timerTick = 10;
         //-----------
         /// Racing Area
         public static int racing_Area_X_Pos = 200;
@@ -136,7 +137,7 @@ namespace Car_GameBoy.__Globals
         //-------------------------------------------------
         ///Enemyies
         public static int number_Of_Enemies = 2;
-        public static int verticar_Dis_Bet_Enemies = 300;
+        public static int vertical_Dis_Bet_Enemies = 300;
         public static List<List<C_Item>> li_Enemy_Cars = new List<List<C_Item>>();
 
         public static int random_Enemy_X_Pos = 350;
@@ -211,10 +212,14 @@ namespace Car_GameBoy.__Globals
         public static int player_Food_Y_Pos = 50;
         public static bool doesFoodEnabled=false;
         public static bool draw_Food=false;
-        public static bool food_Collision=false;    
+        public static bool food_Collision=false;
 
 
-
+        //--------------------------------------------------------------
+        /// Levels
+        public static I_Level_Runnable current_Level=new C_Level_Runnable();
+        public static int level_Limit = 100;
+        public static int level_Road_Bump = 4;
 
 
 

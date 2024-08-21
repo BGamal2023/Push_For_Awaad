@@ -61,8 +61,8 @@ namespace Car_GameBoy._0_Main
         //------------------------------------------------------------------------------------------------
         private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox player_Score)
         {
+            Globals.current_Level.Run();
             obj_Collision_Manager.check_Collision(Globals.li_Player_Container, Globals.li_Enemy_Cars, Globals.li_Player_Food, timer);
-
             obj_Moving_Manager.move_Items_During_Timer_Tick(gameArea);
             Globals.player_Score += 1;
             update_Player_Score(player_Score);

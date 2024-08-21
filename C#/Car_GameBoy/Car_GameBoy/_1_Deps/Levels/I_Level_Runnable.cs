@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
-namespace Car_GameBoy.__Globals
+namespace Car_GameBoy._1_Deps.Levels
 {
-    internal class Awaad
+    internal interface I_Level_Runnable
     {
-        public int a = 10;
+        public void Run();
+
     }
 }
