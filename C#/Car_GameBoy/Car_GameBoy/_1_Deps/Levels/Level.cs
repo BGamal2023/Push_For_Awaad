@@ -43,16 +43,22 @@ namespace Car_GameBoy._1_Deps.Levels
         //-----------------------------------------------------------------------------------------------
         public void actions_To_Be_Done_In_The_Enter_Of_The_Level()
         {
+            // set game area
+            // create
+            // draw 
 
         }
         //-----------------------------------------------------------------------------------------------
         public void actions_To_Be_Done_During_Level()
         {
+            // timer tick
+            // if 
 
         }
         //-----------------------------------------------------------------------------------------------
         public void actions_To_Be_Done_In_The_End_Of_The_Level()
         {
+            //
 
         }
 

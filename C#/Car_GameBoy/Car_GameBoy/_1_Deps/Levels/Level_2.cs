@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Car_GameBoy._1_Deps.Levels
 {
-    internal class Level_2
+    internal class Level_2 : I_Level_Runnable
     {
+        public void Run()
+        {
+        }
     }
 }

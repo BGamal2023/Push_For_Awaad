@@ -10,14 +10,16 @@ namespace Car_GameBoy._1_Deps.Levels
     internal class Levels_Manager
     {
        
-       private void main_Game_Loop()
-        {
-
-        }
+     
         //--------------------------------------------------------------------------------------------------------------
         private void start_The_Current_Level()
         {
             Globals.current_Level.Run();
+        }
+        //--------------------------------------------------------------------------------------------------------------
+        private void update()
+        {
+            // this will be invoked in the timer tick method
         }
         //--------------------------------------------------------------------------------------------------------------
         private void end_The_Current_Level() { }
