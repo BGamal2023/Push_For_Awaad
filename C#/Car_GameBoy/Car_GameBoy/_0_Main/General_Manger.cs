@@ -12,6 +12,7 @@ using Car_GameBoy._1_Deps._5_Buttons.Buttons_Manager;
 using Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes;
 using Car_GameBoy._1_Deps._6_Collision;
 using Car_GameBoy._1_Deps._7_Controlling.Controlling_Manager;
+using Car_GameBoy._1_Deps.Levels;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -34,6 +35,7 @@ namespace Car_GameBoy._0_Main
         private Collision_Manager obj_Collision_Manager=new Collision_Manager();
         private Controlling_Manager obj_Controlling_Manager=new Controlling_Manager ();
         private int count = 0;
+        private Level_1 obj_Level_1=new Level_1 ();
         //------------------------------------------------------------------------------------------------
 
         public Canvas start_And_Handle_The_App(MainWindow mW)
@@ -45,7 +47,6 @@ namespace Car_GameBoy._0_Main
             obj_Creating_Manager.creat();
             obj_Drawing_Manager.draw(gameArea);
             set_The_Initial_Values();
-            
             return gameArea;
         }
 
@@ -61,7 +62,7 @@ namespace Car_GameBoy._0_Main
         //------------------------------------------------------------------------------------------------
         private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox player_Score)
         {
-            Globals.current_Level.Run();
+             Globals.current_Level.Run();
             obj_Collision_Manager.check_Collision(Globals.li_Player_Container, Globals.li_Enemy_Cars, Globals.li_Player_Food, timer);
             obj_Moving_Manager.move_Items_During_Timer_Tick(gameArea);
             Globals.player_Score += 1;
@@ -74,7 +75,6 @@ namespace Car_GameBoy._0_Main
         {
             if(e.Key == Key.Right) 
             {
-              
                 obj_Moving_Manager.move_The_Player_Right(gameArea);
             }
             else if(e.Key == Key.Left)

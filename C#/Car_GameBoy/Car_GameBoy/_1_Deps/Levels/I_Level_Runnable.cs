@@ -11,7 +11,13 @@ namespace Car_GameBoy._1_Deps.Levels
 {
     internal interface I_Level_Runnable
     {
-        public double timerTick { get; set; }
+        public int level_No { get; set; }
+        public bool levelStarted {  get; set; }
+        public void Run();
+        public void onStart();
+        public void onRunning();
+        public void onDestroyed();
+       /* public double timerTick { get; set; }
         //------------------------------------
         /// Racing Area
         public int racing_Area_X_Pos { get; set; }
@@ -95,7 +101,14 @@ namespace Car_GameBoy._1_Deps.Levels
         public Brush enemy_Color { get; set; }
         public int enemy_Move_Speed { get; set; }
         //------------------------------------------------------
-        public void Run();
+
+        /// Lists...
+        public static List<C_Item> li_Of_The_Left_Sideway_Blocks = new List<C_Item>();
+        public static List<C_Item> li_Of_The_Right_Sideway_Blocks = new List<C_Item>();
+        public static List<C_Item> li_Lines_In_Racing_Area = new List<C_Item>();
+        public static List<C_Item> li_The_Racing_Area=new List<C_Item> ();
+        public static List<C_Item> li_The_Left_Side_Of_The_Racing_Area = new List<C_Item>();
+        public static List<C_Item> li_The_Right_Side_Of_The_Racing_Area = new List<C_Item>();*/
 
     }
 }

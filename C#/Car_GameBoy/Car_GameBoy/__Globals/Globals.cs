@@ -220,8 +220,23 @@ namespace Car_GameBoy.__Globals
         public static I_Level_Runnable current_Level=new C_Level_Runnable();
         public static int level_Limit = 100;
         public static int level_Road_Bump = 4;
+        public static int current_Level_Nu = 1;
+        public static int level_Score = 100;
+        public  enum Enum_Level
+        {
+            Level_1,
+            Level_2,
+            Level_3,
+            Level_4,
+            Level_5,
+            Level_6,
+            Level_7,
+            Level_8,
+            Level_9,
+            Level_10
+        }
 
-
+        public static Enum_Level enum_Current_Level = Enum_Level.Level_1;
 
 
 

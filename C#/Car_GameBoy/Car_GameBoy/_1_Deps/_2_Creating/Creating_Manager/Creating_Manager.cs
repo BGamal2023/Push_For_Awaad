@@ -10,6 +10,7 @@ using Car_GameBoy._1_Deps._2_Creating.Creating_Score_Box;
 using Car_GameBoy._1_Deps._2_Creating.Creating_SideWay_Of_The_Racing_Area;
 using Car_GameBoy._1_Deps._2_Creating.Creating_The_Enemyes;
 using Car_GameBoy._1_Deps._2_Creating.Creating_The_Player;
+using Car_GameBoy._1_Deps.Levels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,13 +47,32 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Manager
             obj_Creating_The_Two_Sideways_Of_The_Racing_Area.create_The_Left_Sideway_Of_The_Racing_Area();
             obj_Creating_The_Two_Sideways_Of_The_Racing_Area.create_The_Right_Sideway_Of_The_Racing_Area();
             obj_Creating_Left_Sideway_Blocks.create_Left_Sideway_Blocks();
-            obj_Creating_Right_sideway_Blocks.create_Right_Sideway_Blocks_V0();
+            obj_Creating_Right_sideway_Blocks.create_Right_Sideway_Blocks();
             obj_Creating_Player_Container.creat_Player_Container();
             obj_Creating_The_Player.create_The_Player();
             obj_Creating_Enemyies.creating_The_Enemies();
             obj_Player_Food_Creator.create_The_Player_Food();   
 
         }
-        
+        //--------------------------------------------------------------------------------------
+        public void creat_V1(I_Level_Runnable obj_I_Level_Runnable)
+        {
+            Creating_The_List_Of_Brush_Colors.GenerateDistinctBrushes(300);
+            obj_Score_Box_Creator.create_Score_Box();
+            obj_Hi_Score_Box_Creator.create_Hi_Score_Box();
+            obj_Fuel_Indic_Creator.create_Fuel_Indicator_Box();
+            obj_Creating_The_Racing_Area.creat_The_Racing_Area_V1(obj_I_Level_Runnable);
+            obj_Creating_Line_In_Racing_Area.create_Lines_Of_Racing_Area_V1(obj_I_Level_Runnable);
+            obj_Creating_The_Two_Sideways_Of_The_Racing_Area.create_The_Left_Sideway_Of_The_Racing_Area_V1(obj_I_Level_Runnable);
+            obj_Creating_The_Two_Sideways_Of_The_Racing_Area.create_The_Right_Sideway_Of_The_Racing_Area_V1(obj_I_Level_Runnable);
+            obj_Creating_Left_Sideway_Blocks.create_Left_Sideway_Blocks_V1(obj_I_Level_Runnable);
+            obj_Creating_Right_sideway_Blocks.create_Right_Sideway_Blocks_V1(obj_I_Level_Runnable);
+            obj_Creating_Player_Container.creat_Player_Container();
+            obj_Creating_The_Player.create_The_Player();
+            obj_Creating_Enemyies.creating_The_Enemies();
+            obj_Player_Food_Creator.create_The_Player_Food();
+
+        }
+
     }
 }

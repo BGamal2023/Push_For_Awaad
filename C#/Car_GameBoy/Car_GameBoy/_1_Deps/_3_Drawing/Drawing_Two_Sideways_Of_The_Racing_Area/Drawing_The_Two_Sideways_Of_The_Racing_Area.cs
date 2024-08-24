@@ -1,5 +1,6 @@
 ﻿using Car_GameBoy.__Globals;
 using Car_GameBoy._1_Deps._3_Drawing.Interfaces_And_Thier_Imple_Classes;
+using Car_GameBoy._1_Deps.Levels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,16 @@ namespace Car_GameBoy._1_Deps._3_Drawing.Drawing_Two_Sideways_Of_The_Racing_Area
         public void draw_The_Right_Sideway(Canvas gameArea)
         {
             obj_Drawing.draw_Item(Globals.li_The_Right_Side_Of_The_Racing_Area,gameArea);
+        }
+        //----------------------------------------------------------------------------------------------
+        public void draw_The_Left_Sideway_V1(Canvas gameArea)
+        {
+            obj_Drawing.draw_Item(I_Level_Runnable.li_The_Left_Side_Of_The_Racing_Area, gameArea);
+        }
+        //----------------------------------------------------------------------------------------------
+        public void draw_The_Right_Sideway_V1(Canvas gameArea)
+        {
+            obj_Drawing.draw_Item(I_Level_Runnable.li_The_Right_Side_Of_The_Racing_Area, gameArea);
         }
 
     }
