@@ -236,7 +236,19 @@ namespace Car_GameBoy.__Globals
             Level_10
         }
 
+        public enum level_States
+        {
+            onStart,
+            onRun,
+            onDestroy,
+
+        }
+        public static level_States current_Level_State = level_States.onStart;
         public static Enum_Level enum_Current_Level = Enum_Level.Level_1;
+
+        public static bool does_Level_Started = false;
+        public static bool does_Game_Over=false;
+        public static bool does_Scored=false;
 
 
 

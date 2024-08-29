@@ -17,23 +17,41 @@ namespace Car_GameBoy._1_Deps.Levels
     {
         public int _level_No = 1;
         public bool _levelStarted=false;
-
+        public int _req_Score = 300;
+        private Level level=new Level();
         public int level_No { get { return _level_No; } set { level_No = _level_No; } }
 
         public bool levelStarted { get { return _levelStarted; } set { levelStarted = _levelStarted; } }
 
+        public int req_Score { get { return _req_Score; } set { req_Score = _req_Score; } }
+
         //---------------------------------------------------------------------------------------------------------------
         public void Run()
         {
-            set_The_Game_Globals_Variables_As_Level_1();
 
-            onStart();
-            onRunning();
-            onDestroyed();
+           level.onRunning();
 
         }
+      
         //--------------------------------------------------------------------------------------------------------------
-        private void set_The_Game_Globals_Variables_As_Level_1()
+        public void onStart(MainWindow mW)
+        {
+
+            level.onStart(this,mW);
+        }
+
+        //--------------------------------------------------------------------------------------------------------------
+        public void onRunning()
+        {
+            level.onRunning();
+        }
+        //--------------------------------------------------------------------------------------------------------------
+        public void onDestroyed()
+        {
+            level.onDestroyed();
+        }
+        //--------------------------------------------------------------------------------------------------------------
+        public void set_Level_Values()
         {
 
             Globals.timerTick = 10;
@@ -208,32 +226,9 @@ namespace Car_GameBoy._1_Deps.Levels
             Globals.draw_Food = false;
             Globals.food_Collision = false;
         }
+
+        
         //--------------------------------------------------------------------------------------------------------------
-        private void onStart()
-        {
-            if(! levelStarted)
-            {
-
-
-
-
-                levelStarted = true;
-            }
-
-        }
-
-        //--------------------------------------------------------------------------------------------------------------
-        private void onRunning()
-        {
-            /// moving and monitoring actions
-        }
-        //--------------------------------------------------------------------------------------------------------------
-        private void onDestroyed()
-        {
-
-        }
-        //--------------------------------------------------------------------------------------------------------------
-
 
     }
 }

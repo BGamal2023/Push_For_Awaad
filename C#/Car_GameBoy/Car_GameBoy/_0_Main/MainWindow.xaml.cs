@@ -24,7 +24,7 @@ namespace Car_GameBoy
         public MainWindow()
         {
             InitializeComponent();
-            Canvas gameArea = obj_GM.start_And_Handle_The_App(this);
+            obj_GM.start_And_Handle_The_App(this);
 
             KeyDown += (sender, e) => obj_GM.onclick_Keydown(sender, e);
 

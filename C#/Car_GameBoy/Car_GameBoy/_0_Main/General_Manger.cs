@@ -38,16 +38,16 @@ namespace Car_GameBoy._0_Main
         private Level_1 obj_Level_1=new Level_1 ();
         //------------------------------------------------------------------------------------------------
 
-        public Canvas start_And_Handle_The_App(MainWindow mW)
+        public void start_And_Handle_The_App(MainWindow mW)
         {
-            obj_MWH.customize_mainWindow(mW);
-            gameArea = obj_GAH.handle_And_Give_Me_The_GameArea(mW);
+          ///  obj_MWH.customize_mainWindow(mW);
+           /// gameArea = obj_GAH.handle_And_Give_Me_The_GameArea(mW);
             handle_The_Game_Timer(Score_Box_Creator.obj_TextBox);
             obj_Btns_Manager.handle_GameArea_Buttons(gameArea, timer);
-            obj_Creating_Manager.creat();
-            obj_Drawing_Manager.draw(gameArea);
-            set_The_Initial_Values();
-            return gameArea;
+          ///  obj_Creating_Manager.creat();
+           /// obj_Drawing_Manager.draw(gameArea);
+           /// set_The_Initial_Values();
+           
         }
 
       
@@ -68,6 +68,7 @@ namespace Car_GameBoy._0_Main
             Globals.player_Score += 1;
             update_Player_Score(player_Score);
             obj_Controlling_Manager.control(Globals.timerTick, gameArea);
+            /// monitor the score to detect 
 
         }
         //------------------------------------------------------------------------------------------------
