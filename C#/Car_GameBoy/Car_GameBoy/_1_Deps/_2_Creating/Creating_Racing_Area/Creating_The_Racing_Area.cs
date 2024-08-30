@@ -26,13 +26,13 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Racing_Area
         //--------------------------------------------------------------------------------
         public void creat_The_Racing_Area_V1(I_Level_Runnable obj_I_Level_Runnable)
         {
-            obj_Creating.creat_One_Segement_Item(
+           /* obj_Creating.creat_One_Segement_Item(
                 obj_I_Level_Runnable.racing_Area_Width,
                 obj_I_Level_Runnable.racing_Area_Height,
                 obj_I_Level_Runnable.racing_Area_X_Pos,
                 obj_I_Level_Runnable.racing_Area_Y_Pos,
                 obj_I_Level_Runnable.racing_Area_bGround_Color,
-                I_Level_Runnable.li_The_Racing_Area);
+                I_Level_Runnable.li_The_Racing_Area);*/
         }
     }
 }

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
@@ -26,24 +27,26 @@ namespace Car_GameBoy._1_Deps.Levels
         public int req_Score { get { return _req_Score; } set { req_Score = _req_Score; } }
 
         //---------------------------------------------------------------------------------------------------------------
-        public void Run()
+        public void Run(TextBox tb, I_Level_Runnable current_Level, MainWindow mW)
         {
+            level.onStart(mW);
+            level.onRunning(tb , current_Level,mW);
+            level.onDestroyed();
 
-           level.onRunning();
 
         }
-      
+
         //--------------------------------------------------------------------------------------------------------------
         public void onStart(MainWindow mW)
         {
 
-            level.onStart(this,mW);
+            level.onStart(mW);
         }
 
         //--------------------------------------------------------------------------------------------------------------
-        public void onRunning()
+        public void onRunning(TextBox tb, I_Level_Runnable current_Level, MainWindow mW)
         {
-            level.onRunning();
+            level.onRunning(tb,current_Level,mW);
         }
         //--------------------------------------------------------------------------------------------------------------
         public void onDestroyed()

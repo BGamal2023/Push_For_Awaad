@@ -30,8 +30,6 @@ namespace Car_GameBoy._1_Deps.Levels
 
         bool levelStarted = false;
 
-
-
         private MainWindow_Handler obj_MWH = new MainWindow_Handler();
         private GameArea_Handler obj_GAH = new GameArea_Handler();
         private Canvas gameArea = new Canvas();
@@ -48,6 +46,8 @@ namespace Car_GameBoy._1_Deps.Levels
         private Level_Ticket_Info_Controller obj_Level_Info_Ticket = new Level_Ticket_Info_Controller();
         private Player_Score_Controller obj_Player_Score=new Player_Score_Controller(); 
         private Game_Levels_Controller obj_Game_Level_Controller=new Game_Levels_Controller();
+        private Level_States_Manager obj_Level_States_Manager=new Level_States_Manager();
+
         //-----------------------------------------------------------------------------------------------
         public void onStart( MainWindow mW)
         {
@@ -56,8 +56,11 @@ namespace Car_GameBoy._1_Deps.Levels
             // draw 
             if (!levelStarted)
             {
-               Globals.current_Level= obj_Game_Level_Controller.detect_Level();
-                Globals.current_Level.set_Level_Values();
+
+
+                ///bug #20 i moved this to start point
+             ///  Globals.current_Level= obj_Game_Level_Controller.detect_Level();
+             ///   Globals.current_Level.set_Level_Values();
                 obj_MWH.customize_mainWindow(mW);
                 gameArea = obj_GAH.handle_And_Give_Me_The_GameArea(mW);
                 obj_Btns_Manager.handle_GameArea_Buttons(gameArea, timer);
@@ -70,16 +73,15 @@ namespace Car_GameBoy._1_Deps.Levels
 
         }
         //-----------------------------------------------------------------------------------------------
-        public void onRunning(TextBox tb)
+        public void onRunning(TextBox tb, I_Level_Runnable current_Level, MainWindow mW)
         {
+            obj_Level_States_Manager.control_Level_States(current_Level, mW, tb );
             obj_Collision_Manager.check_Collision(Globals.li_Player_Container, Globals.li_Enemy_Cars, Globals.li_Player_Food, timer);
             obj_Moving_Manager.move_Items_During_Timer_Tick(gameArea);
             Globals.player_Score += 1;
             obj_Player_Score.update_Player_Score(tb);
             obj_Controlling_Manager.control(Globals.timerTick, gameArea);
             /// monitor the score to detect 
-
-
         }
         //-----------------------------------------------------------------------------------------------
         public void onDestroyed()
@@ -88,16 +90,20 @@ namespace Car_GameBoy._1_Deps.Levels
             if (Globals.does_Scored)
             {
                 Globals.current_Level_Nu += 1;
+                // update level to new level
+                // start the new level 
+                // zero the score 
 
             }
             else if(Globals.does_Game_Over)
             {
-
+                //show the failed message
+                //repeate the level from begining
             }
            
 
         }
-
+        //-----------------------------------------------------------------------------------------------
         public void handle_The_Discussion_Menu()
         {
 

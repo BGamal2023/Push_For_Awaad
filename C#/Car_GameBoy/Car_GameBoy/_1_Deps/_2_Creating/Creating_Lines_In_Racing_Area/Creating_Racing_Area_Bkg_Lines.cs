@@ -33,7 +33,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Lines_In_Racing_Area
         //----------------------------------------------------------------------------------------
         public void create_Lines_Of_Racing_Area_V1(I_Level_Runnable obj_I_Level_Runnable)
         {
-            obj_Creating.creat_Multible_Item(
+           /* obj_Creating.creat_Multible_Item(
                 obj_I_Level_Runnable.no_Of_Lines_In_racing_Area,
                 obj_I_Level_Runnable.no_Of_Segement_In_Every_Racing_Area_Lines,
                 Globals.racing_Area_Background_Line_Width,
@@ -45,7 +45,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Lines_In_Racing_Area
                 I_Level_Runnable.li_Lines_In_Racing_Area,
                 obj_I_Level_Runnable.racing_Area_Dist_Bet_Lines
 
-                );
+                );*/
         }
     }
 }

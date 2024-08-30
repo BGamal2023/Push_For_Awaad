@@ -13,26 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\levels\\level_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\levels\\level_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\_2_creating\\creating_manager\\creating_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\_2_creating\\creating_manager\\creating_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\levels\\level_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\levels\\level_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\levels\\c_level_runnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\levels\\c_level_runnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\__globals\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\__globals\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|e:\\programming\\awaad github\\push_for_awaad\\c#\\car_gameboy\\car_gameboy\\_1_deps\\levels\\i_level_runnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A397F3F-081E-4047-AEBE-9A2BD773B7B6}|Car_GameBoy\\Car_GameBoy.csproj|solutionrelative:car_gameboy\\_1_deps\\levels\\i_level_runnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,6 +25,10 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Level.cs",
@@ -52,83 +36,10 @@
               "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\Levels\\Level.cs",
               "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\Level.cs",
               "RelativeToolTip": "Car_GameBoy\\_1_Deps\\Levels\\Level.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:20:11.479Z",
+              "WhenOpened": "2024-08-30T06:22:56.265Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Level_2.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\Level_2.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\Levels\\Level_2.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\Level_2.cs",
-              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\Levels\\Level_2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:22:02.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Creating_Manager.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
-              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\_2_Creating\\Creating_Manager\\Creating_Manager.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAewDUAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:18:03.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "General_Manger.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "RelativeToolTip": "Car_GameBoy\\_0_Main\\General_Manger.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAwwE0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:17:49.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "I_Level_Runnable.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\I_Level_Runnable.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\Levels\\I_Level_Runnable.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\I_Level_Runnable.cs",
-              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\Levels\\I_Level_Runnable.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGgAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:08:43.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "C_Level_Runnable.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\C_Level_Runnable.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\Levels\\C_Level_Runnable.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\C_Level_Runnable.cs",
-              "RelativeToolTip": "Car_GameBoy\\_1_Deps\\Levels\\C_Level_Runnable.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAYwGcAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:08:38.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Globals.cs",
-              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\__Globals\\Globals.cs",
-              "RelativeDocumentMoniker": "Car_GameBoy\\__Globals\\Globals.cs",
-              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\__Globals\\Globals.cs",
-              "RelativeToolTip": "Car_GameBoy\\__Globals\\Globals.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswG0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T06:33:43.866Z"
             },
             {
               "$type": "Document",
@@ -138,14 +49,23 @@
               "RelativeDocumentMoniker": "Car_GameBoy\\_1_Deps\\Levels\\Level_1.cs",
               "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_1_Deps\\Levels\\Level_1.cs",
               "RelativeToolTip": "Car_GameBoy\\_1_Deps\\Levels\\Level_1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T06:23:17.998Z",
+              "WhenOpened": "2024-08-30T06:22:45.426Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "General_Manger.cs",
+              "DocumentMoniker": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "RelativeDocumentMoniker": "Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "ToolTip": "E:\\Programming\\Awaad GitHub\\Push_For_Awaad\\C#\\Car_GameBoy\\Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "RelativeToolTip": "Car_GameBoy\\_0_Main\\General_Manger.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T06:21:36.263Z",
+              "EditorCaption": ""
             }
           ]
         },

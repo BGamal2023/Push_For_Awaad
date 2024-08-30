@@ -10,13 +10,13 @@ using System.Windows;
 using System.Windows.Shapes;
 using Car_GameBoy.__Globals;
 
-namespace Car_GameBoy._1_Deps._7_Controlling.Controlling_The_Level_Info_Ticket
+namespace Car_GameBoy._1_Deps._7_Controlling.Controlling_Info_Tickets_Bet_Levels
 {
     internal class Level_Ticket_Info_Controller
     {
 
 
-        public void show_Level_Ticket_Info_In_Starting_The_Level(Canvas gameArea, int level_No, int req_Score,int show_Time_In_Second)
+        public void show_Level_Ticket_Info_In_Starting_The_Level(Canvas gameArea, int level_No, int req_Score, int show_Time_In_Second)
         {
             // Create the canvas
             Canvas canvas = new Canvas();
@@ -105,7 +105,7 @@ namespace Car_GameBoy._1_Deps._7_Controlling.Controlling_The_Level_Info_Ticket
             {
                 gameArea.Children.Remove(canvas);
 
-                Globals.does_Level_Started=true;
+                Globals.does_Level_Started = true;
             };
             timer.Start();
         }

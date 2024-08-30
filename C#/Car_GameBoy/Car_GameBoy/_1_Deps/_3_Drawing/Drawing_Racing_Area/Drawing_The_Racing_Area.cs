@@ -21,7 +21,7 @@ namespace Car_GameBoy._1_Deps._3_Drawing.Drawing_Racing_Area
         //-----------------------------------------------------------------------------------------
         public void draw_The_Racing_Area_V1(Canvas gameArea)
         {
-            obj_Drawing.draw_Item(I_Level_Runnable.li_The_Racing_Area, gameArea);
+           // obj_Drawing.draw_Item(I_Level_Runnable.li_The_Racing_Area, gameArea);
         }
 
     }

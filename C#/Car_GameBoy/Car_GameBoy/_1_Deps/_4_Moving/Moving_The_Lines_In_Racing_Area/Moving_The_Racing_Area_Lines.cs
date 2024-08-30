@@ -26,12 +26,12 @@ namespace Car_GameBoy._1_Deps._4_Moving.Moving_The_Lines_In_Racing_Area
         //--------------------------------------------------------------------------------
         public void move_The_Racing_Area_Lines_V1(Canvas gameArea)
         {
-            obj_Moving.move_Item_Vertical_Down_At_Fixed_Left_Pos(
+          /*  obj_Moving.move_Item_Vertical_Down_At_Fixed_Left_Pos(
                 I_Level_Runnable.li_Lines_In_Racing_Area,
                 gameArea,
                 Globals.moving_Increment,
                 Globals.gameArea_Height);
-
+*/
         }
     }
 }

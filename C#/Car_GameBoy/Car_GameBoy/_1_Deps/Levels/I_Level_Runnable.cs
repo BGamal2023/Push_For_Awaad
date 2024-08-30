@@ -14,9 +14,9 @@ namespace Car_GameBoy._1_Deps.Levels
         public int level_No { get; set; }
         public bool levelStarted {  get; set; }
         public int req_Score {  get; set; } 
-        public void Run();
+        public void Run(TextBox tb, I_Level_Runnable current_Level, MainWindow mW);
         public void onStart(MainWindow mW);
-        public void onRunning();
+        public void onRunning(TextBox tb, I_Level_Runnable current_Level, MainWindow mW);
         public void onDestroyed();
         public void set_Level_Values();
        /* public double timerTick { get; set; }

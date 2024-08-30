@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace Car_GameBoy._1_Deps.Levels
@@ -11,10 +12,45 @@ namespace Car_GameBoy._1_Deps.Levels
     internal class Level_2 : I_Level_Runnable
     {
         public int local_Level_No = 2;
+
+        public int level_No { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool levelStarted { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int req_Score { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public void onDestroyed()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onRunning()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onRunning(TextBox tb, I_Level_Runnable current_Level, MainWindow mW)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onStart(MainWindow mW)
+        {
+            throw new NotImplementedException();
+        }
+
         //------------------------------------------------------------------------------------
         public void Run()
         {
 
+        }
+
+        public void Run(TextBox tb, I_Level_Runnable current_Level, MainWindow mW)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void set_Level_Values()
+        {
+            throw new NotImplementedException();
         }
         //------------------------------------------------------------------------------------
 

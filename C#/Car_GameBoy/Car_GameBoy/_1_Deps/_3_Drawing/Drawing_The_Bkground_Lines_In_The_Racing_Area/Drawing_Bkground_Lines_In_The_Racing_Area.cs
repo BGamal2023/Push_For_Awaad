@@ -21,7 +21,7 @@ namespace Car_GameBoy._1_Deps._3_Drawing.Drawing_The_Bkground_Lines_In_The_Racin
         //--------------------------------------------------------------------------------------
         public void draw_The_Bkground_Lines_In_The_Racing_Area_V1(Canvas gameArea)
         {
-            obj_Drawing.draw_Item(I_Level_Runnable.li_Lines_In_Racing_Area, gameArea);
+         //   obj_Drawing.draw_Item(I_Level_Runnable.li_Lines_In_Racing_Area, gameArea);
         }
     }
 }

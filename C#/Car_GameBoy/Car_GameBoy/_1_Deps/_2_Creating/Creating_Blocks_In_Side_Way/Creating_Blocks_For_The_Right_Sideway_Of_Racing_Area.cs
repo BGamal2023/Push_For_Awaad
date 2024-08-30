@@ -34,7 +34,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Blocks_In_Side_Way
         //-------------------------------------------------------------------------------
         public void create_Right_Sideway_Blocks_V1(I_Level_Runnable obj_I_Level_Runnable)
         {
-            obj_Creat_item.creat_Multible_Item(
+           /* obj_Creat_item.creat_Multible_Item(
                 obj_I_Level_Runnable.no_Of_The_Right_SideWay_Blocks,
                 obj_I_Level_Runnable.right_Sideway_Blocks_Segment_No,
                 obj_I_Level_Runnable.right_Sideway_Blocks_Width,
@@ -45,7 +45,7 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Blocks_In_Side_Way
                 obj_I_Level_Runnable.right_Sideway_Blocks_Y_Pos,
                 I_Level_Runnable.li_Of_The_Right_Sideway_Blocks,
                 obj_I_Level_Runnable.right_Sideway_Blocks_Dis_Bet_Blocks
-                );
+                );*/
         }
     }
 }
