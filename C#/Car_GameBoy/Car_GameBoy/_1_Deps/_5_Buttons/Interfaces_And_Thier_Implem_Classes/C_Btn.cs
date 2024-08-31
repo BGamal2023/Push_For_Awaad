@@ -22,7 +22,7 @@ namespace Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes
             string btn_Text,
             Brush btn_Color,
             DispatcherTimer timer,
-            I_GA_Btns_Runnable Btn_Onclick_Callback_Code)
+            I_GameArea_Btns_Runnable Btn_Onclick_Callback_Code)
         {
             add_The_Btn_To_The_GameArea_GC(gameArea, btn, btn_Width, btn_Height, btn_Left_Pos, btn_Top_Pos, btn_Text, btn_Color);
             set_The_OnClick_For_Any_Dirction_Button_GC(gameArea, timer, btn,Btn_Onclick_Callback_Code);
@@ -32,7 +32,7 @@ namespace Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes
             (Canvas gameArea,
             Button btn,
             DispatcherTimer timer,
-            I_GA_Btns_Runnable Btn_Onclick_Callback_Code)
+            I_GameArea_Btns_Runnable Btn_Onclick_Callback_Code)
         {
             set_The_OnClick_For_Any_Dirction_Button_GC(gameArea, timer, btn, Btn_Onclick_Callback_Code);
 
@@ -57,12 +57,12 @@ namespace Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes
             Canvas.SetTop(btn, btn_Top_Pos);
         }
         //---------------------------------------------------------------------------------
-        public void Btn_OnClick_GC(object sender, EventArgs e,I_GA_Btns_Runnable runnable,DispatcherTimer timer)
+        public void Btn_OnClick_GC(object sender, EventArgs e,I_GameArea_Btns_Runnable runnable,DispatcherTimer timer)
         {
             runnable.Run(timer);
         }
         //-----------------------------------------------------------------------------------
-        public void set_The_OnClick_For_Any_Dirction_Button_GC(Canvas gameArea, DispatcherTimer timer, Button btn,I_GA_Btns_Runnable runnable)
+        public void set_The_OnClick_For_Any_Dirction_Button_GC(Canvas gameArea, DispatcherTimer timer, Button btn,I_GameArea_Btns_Runnable runnable)
         {
             btn.Click += (sender, e) => Btn_OnClick_GC(sender, e,runnable,timer);
         }

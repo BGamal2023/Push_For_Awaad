@@ -105,6 +105,15 @@ namespace Car_GameBoy.__Globals
         public static int btn_Stop_Top_Pos = 575;
         public static string btn_Stop_Text = "Stop Game";
         public static Brush btn_Stop_Bkground_Color = Brushes.Red;
+
+
+        /// restart Button 
+        public static int btn_Restart_Widht = 80;
+        public static int btn_Restart_Height = 25;
+        public static int btn_Restart_Left_Pos = 575;
+        public static int btn_Restart_Top_Pos = 675;
+        public static string btn_Restart_Text = "Restart Game";
+        public static Brush btn_Restart_Bkground_Color = Brushes.Red;
         //-------------------------------------------------
         /// Player Container
         public static int player_One_Block_Width = 15;

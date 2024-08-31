@@ -9,7 +9,7 @@ namespace Car_GameBoy._1_Deps._5_Buttons.Interfaces_And_Thier_Implem_Classes
 {
 
     //GA==GameArea
-    internal class C_GA_Btns_Runnable : I_GA_Btns_Runnable
+    internal class C_GA_Btns_Runnable : I_GameArea_Btns_Runnable
     {
         public void Run(DispatcherTimer timer)
         {

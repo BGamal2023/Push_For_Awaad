@@ -9,13 +9,16 @@ using System.Windows.Shapes;
 using Car_GameBoy._1_Deps._3_Drawing.Drawing_GC;
 using Car_GameBoy.__Globals;
 using System.Windows.Threading;
+using Car_GameBoy._1_Deps._7_Controlling.Controlling_Info_Tickets_Bet_Levels;
+using Car_GameBoy._0_Main;
 
 namespace Car_GameBoy._1_Deps._6_Collision
 {
     internal class Enemey_Collision
     {
-
-        public void detect_Enemy_Collison(List<C_Item> player,List<List<C_Item>> enemies,DispatcherTimer timer)
+        private GameOver_Ticket_Controller obj_GO_Ticket_Con=new GameOver_Ticket_Controller();
+        //-------------------------------------------------------------------------------------------------------------------------
+        public void detect_Enemy_Collison(List<C_Item> player,List<List<C_Item>> enemies,DispatcherTimer timer,Canvas gameArea,MainWindow mW)
         {
             for(int i = 0;i<player.Count;i++)
             {
@@ -27,6 +30,9 @@ namespace Car_GameBoy._1_Deps._6_Collision
                         if (isColliding)
                         {
                             timer.Stop();
+                            obj_GO_Ticket_Con.issue_GameOver_Tickt(gameArea, 1, 500, 5);
+                          //  obj_GM.start_And_Handle_The_App(mW);
+
                         }
                     }
                 }

@@ -19,7 +19,6 @@ using System.Windows.Threading;
 
 namespace Car_GameBoy._0_Main
 {
-
     internal class General_Manger
     {
         private MainWindow_Handler obj_MWH = new MainWindow_Handler();
@@ -40,29 +39,25 @@ namespace Car_GameBoy._0_Main
         {
             obj_MWH.customize_mainWindow(mW);
             gameArea = obj_GAH.handle_And_Give_Me_The_GameArea(mW);
-            handle_The_Game_Timer(Score_Box_Creator.obj_TextBox);
+            handle_The_Game_Timer(Score_Box_Creator.obj_TextBox,mW);
             obj_Btns_Manager.handle_GameArea_Buttons(gameArea, timer);
             obj_Creating_Manager.creat();
             obj_Drawing_Manager.draw(gameArea);
             set_The_Initial_Values();
-            
             return gameArea;
         }
-
-      
-
         //------------------------------------------------------------------------------------------------
-        public void handle_The_Game_Timer(TextBox player_Score)
+        public void handle_The_Game_Timer(TextBox player_Score,MainWindow mW)
         {
-            timer.Tick += (sender, e) => timer_Tick(sender, e, gameArea,player_Score);
+            timer.Tick += (sender, e) => timer_Tick(sender, e, gameArea,player_Score,mW);
 
             timer.Interval = System.TimeSpan.FromMilliseconds(Globals.timerTick);
         }
         //------------------------------------------------------------------------------------------------
-        private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox player_Score)
+        private void timer_Tick(object sender, EventArgs e, Canvas gameArea,TextBox player_Score,MainWindow mW)
         {
             Globals.current_Level.Run();
-            obj_Collision_Manager.check_Collision(Globals.li_Player_Container, Globals.li_Enemy_Cars, Globals.li_Player_Food, timer);
+            obj_Collision_Manager.check_Collision(Globals.li_Player_Container, Globals.li_Enemy_Cars, Globals.li_Player_Food, timer,gameArea,mW);
             obj_Moving_Manager.move_Items_During_Timer_Tick(gameArea);
             Globals.player_Score += 1;
             update_Player_Score(player_Score);
@@ -82,6 +77,7 @@ namespace Car_GameBoy._0_Main
                 obj_Moving_Manager.move_The_Player_Left(gameArea);
 
             }
+            
         }
         //------------------------------------------------------------------------------------------------
         internal void onClick_Keyup(object sender, KeyEventArgs e)
@@ -106,6 +102,9 @@ namespace Car_GameBoy._0_Main
 
         }
         //------------------------------------------------------------------------------------------------
-      
+        private void gameOver_Handler()
+        {
+
+        }
     }
 }

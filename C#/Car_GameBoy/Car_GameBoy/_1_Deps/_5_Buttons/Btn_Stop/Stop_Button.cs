@@ -37,7 +37,7 @@ namespace Car_GameBoy._1_Deps._5_Buttons.Btn_Stop
 
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-        internal class OnClick_Callback_For_Btn_Stop : I_GA_Btns_Runnable
+        internal class OnClick_Callback_For_Btn_Stop : I_GameArea_Btns_Runnable
         {
             public void Run(DispatcherTimer timer)
             {
