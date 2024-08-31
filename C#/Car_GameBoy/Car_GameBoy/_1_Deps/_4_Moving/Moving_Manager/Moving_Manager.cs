@@ -5,6 +5,7 @@ using Car_GameBoy._1_Deps._4_Moving.Moving_The_Enemies;
 using Car_GameBoy._1_Deps._4_Moving.Moving_The_Lines_In_Racing_Area;
 using Car_GameBoy._1_Deps._4_Moving.Moving_The_Player;
 using Car_GameBoy._1_Deps._4_Moving.Moving_The_Sideway_Blocks;
+using Car_GameBoy._1_Deps.Levels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,15 @@ namespace Car_GameBoy._1_Deps._4_Moving.Moving_Manager
             obj_Moving_Lines_In_Racing_Area.move_The_Racing_Area_Lines(gameArea);
             obj_Moving_Right_Sideway_Blocks.move_The_Right_Blocks_In_Sideway(gameArea);
             obj_Moving_Left_Sideway_Blocks.move_The_Left_Blocks_In_Sideway(gameArea);
+            obj_Moving_Enemies.move_Enemies(gameArea);
+            obj_Player_Food_Mover.move_The_Player_Food(gameArea);
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        public void move_Items_During_Timer_Tick_V1(Canvas gameArea,I_Level_Runnable obj_I_Level_Runnable)
+        {
+            obj_Moving_Lines_In_Racing_Area.move_The_Racing_Area_Lines_V1(gameArea);
+            obj_Moving_Right_Sideway_Blocks.move_The_Right_Blocks_In_Sideway_V1(gameArea, obj_I_Level_Runnable);
+            obj_Moving_Left_Sideway_Blocks.move_The_Left_Blocks_In_Sideway_V1(gameArea, obj_I_Level_Runnable);
             obj_Moving_Enemies.move_Enemies(gameArea);
             obj_Player_Food_Mover.move_The_Player_Food(gameArea);
         }

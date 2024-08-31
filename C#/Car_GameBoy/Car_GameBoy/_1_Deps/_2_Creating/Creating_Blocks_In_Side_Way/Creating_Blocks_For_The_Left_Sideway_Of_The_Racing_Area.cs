@@ -1,5 +1,6 @@
 ﻿using Car_GameBoy.__Globals;
 using Car_GameBoy._1_Deps._2_Creating.Interfaces_And_Thier_Implemented_Classes;
+using Car_GameBoy._1_Deps.Levels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,24 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Blocks_In_Side_Way
                 Globals.li_Of_The_Left_Sideway_Blocks_New,
                 Globals.left_Sideway_Blocks_Dis_Bet_Blocks
                 );
+        }
+
+        //-----------------------------------------------------------------------------------------
+        public void create_Left_Sideway_Blocks_V1(I_Level_Runnable obj_I_Level_Runnable)
+        {
+
+           /* obj_Creat_item.creat_Multible_Item(
+                obj_I_Level_Runnable.no_Of_Left_SideWay_Blocks,
+                obj_I_Level_Runnable.left_Sideway_Blocks_Segment_No,
+                obj_I_Level_Runnable.left_Sideway_Blocks_Width,
+                obj_I_Level_Runnable.left_Sideway_Blocks_Height,
+                obj_I_Level_Runnable.racing_Area_Bkground_Line_Segment_Height,
+                obj_I_Level_Runnable.left_Sideway_Blocks_BKground_Color,
+                obj_I_Level_Runnable.left_Sideway_Blocks_X_Pos,
+                obj_I_Level_Runnable.left_Sideway_Blocks_Y_Pos,
+                I_Level_Runnable.li_Of_The_Left_Sideway_Blocks,
+                obj_I_Level_Runnable.left_Sideway_Blocks_Dis_Bet_Blocks
+                );*/
         }
     }
 }

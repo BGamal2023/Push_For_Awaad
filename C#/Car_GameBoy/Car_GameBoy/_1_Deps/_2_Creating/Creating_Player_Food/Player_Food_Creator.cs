@@ -28,10 +28,8 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Player_Food
              Brushes.White,
         };
         //-------------------------------------------------------------------------------------------------
-
         public void create_The_Player_Food()
         {
-
             Globals.li_Player_Food= obj_Creating_Car.creat_Car(
           Globals.enemy_One_Block_Width,
            Globals.enemy_One_Block_Height,
@@ -39,11 +37,6 @@ namespace Car_GameBoy._1_Deps._2_Creating.Creating_Player_Food
            Globals.player_Food_Y_Pos,
            player_Food_Colors,
            Globals.no_Of_Blocks_in_enemy_Body);
-
-          
-
         }
-     
-
     }
 }

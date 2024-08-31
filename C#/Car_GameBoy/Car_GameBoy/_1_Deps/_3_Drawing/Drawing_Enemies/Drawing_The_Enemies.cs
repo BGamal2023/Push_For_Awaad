@@ -21,5 +21,6 @@ namespace Car_GameBoy._1_Deps._3_Drawing.Drawing_Enemies
 
             }
         }
+
     }
 }
